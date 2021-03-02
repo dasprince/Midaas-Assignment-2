@@ -26,7 +26,6 @@ def read():
     conn.commit()
     conn.close()
 
-read()
 
 def insert_data_into_table(time_stamp, algorithm, range_, time_taken, prime_count):
     conn = sqlite3.connect('testDB')
